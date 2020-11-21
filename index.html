@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-grey">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light-grey fixed-top">
         <div class="container">
         <a class="navbar-brand" href="#"><img class="logo-nav" src="assets/img/logo-nav.png" alt="LogoOS"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,52 +24,52 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                <a class="nav-link px-2 mx-1" href="#">Inicio<span class="sr-only">(current)</span></a>
+                <a class="nav-link px-2 mx-1" href="#home">Inicio<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link px-2 mx-1" href="#">Acerca de mi</a>
+                <a class="nav-link px-2 mx-1" href="#about-me">Acerca de mi</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link px-2 mx-1" href="#">Experiencia</a>
+                <a class="nav-link px-2 mx-1" href="#experience">Experiencia</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link px-2 mx-1" href="#">Trabajos</a>
+                <a class="nav-link px-2 mx-1" href="#work">Trabajos</a>
                 </li>
-                <button type="button" class="btn btn-outline-light px-4 py-2 ml-3">Contáctame</button>
+                <a href="#contact" class="btn btn-outline-light px-4 py-2 ml-3">Contáctame</a> 
             </ul>
             </div>
         </div>
     </nav>
-    <header class="hero">
+    <header id="home" class="hero mt-5 pt-5">
         <div class="container pt-5">
             <h1 class="font-title display-2 pt-5">Yo soy <br> Oriana Sanabria</h1>
-            <button type="button" class="btn btn-outline-light my-2 px-4 py-2">Mis Trabajos</button>
-            <button type="button" class="btn btn-light my-2 px-4 py-2 ml-3">Contáctame</button>
+            <a href="#work" class="btn btn-outline-light my-2 px-4 py-2">Mis Trabajos</a> 
+            <a href="#contact" class="btn btn-light my-2 px-4 py-2 ml-3">Contáctame</a> 
         </div>
     </header>
-    <section class="about-me bg-grey">
+    <section id="about-me" class="about-me bg-grey d-none d-sm-none d-md-block">
         <div class="container py-5">
             <h2 class="font-title text-center display-3 py-4">Acerca de mi</h2>
             <div class="row">
-                <div class="col-6 pb-4">
+                <div class="col-md-12 col-lg-6 pb-4">
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea doloremque iste, molestiae voluptatum aspernatur alias similique. Nobis voluptate soluta tempore expedita eius, repellat corporis quisquam excepturi sequi voluptates esse aliquam ducimus enim illo laboriosam! Adipisci, corporis? Ipsum unde architecto eaque!</p>
                 </div>
-                <div class="col-6 pb-4">
+                <div class="col-md-12 col-lg-6 pb-4">
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea doloremque iste, molestiae voluptatum aspernatur alias similique. Nobis voluptate soluta tempore expedita eius, repellat corporis quisquam excepturi sequi voluptates esse aliquam ducimus enim illo laboriosam! Adipisci, corporis? Ipsum unde architecto eaque!</p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="experience bg-dark-grey">
+    <section id="experience" class="experience bg-light-grey">
         <div class="container py-5">
             <h2 class="font-title text-center display-3 py-4">Experiencia</h2>
             <div class="row">
-                <div class="col-6">
+                <div class="col-sm-12 col-lg-6">
                     <img src="assets/img/experience1.png" class="experience-img" alt="Logo Experiencia 1">
                     <h3 class="semibold-title text-center pt-2">Diseñadora UI</h3>
                     <p class="text-center"> 2019  -  2020</p>
                 </div>
-                <div class="col-6">
+                <div class="col-sm-12 col-lg-6">
                     <img src="assets/img/gesp.png" class="experience-img" alt="Logo Experiencia 2">
                     <h3 class="semibold-title text-center pt-2">Directora de E-Commerce</h3>
                     <p class="text-center"> 2020  -  Presente</p>
@@ -77,11 +77,11 @@
             </div>
         </div>
     </section>
-    <section class="work bg-grey">
+    <section id="work" class="work bg-grey">
         <div class="container py-5">
             <h2 class="font-title text-center display-3 py-4">Mis Trabajos</h2>
             <div class="row">
-                <div class="col-4">
+                <div class="col-sm-12 col-lg-4 mb-4">
                     <div class="card">
                         <img src="assets/img/work1.jpeg" class="card-img-top" alt="Meet&Coffee">
                         <div class="card-body">
@@ -90,7 +90,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-sm-12 col-lg-4 mb-4">
                     <div class="card">
                         <img src="assets/img/work2.jpeg" class="card-img-top" alt="Iguana Page">
                         <div class="card-body">
@@ -99,7 +99,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-sm-12 col-lg-4 mb-4">
                     <div class="card">
                         <img src="assets/img/work3.jpeg" class="card-img-top" alt="Olivia Ros">
                         <div class="card-body">
@@ -110,8 +110,8 @@
                 </div>
             </div>
 
-            <div class="row py-4">
-                <div class="col-4">
+            <div class="row">
+                <div class="col-sm-12 col-lg-4 mb-4">
                     <div class="card">
                         <img src="assets/img/work4.jpeg" class="card-img-top" alt="Suricata">
                         <div class="card-body">
@@ -120,7 +120,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-sm-12 col-lg-4 mb-4">
                     <div class="card">
                         <img src="assets/img/work5.jpeg" class="card-img-top" alt="Cuppon">
                         <div class="card-body">
@@ -129,7 +129,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-sm-12 col-lg-4 mb-4">
                     <div class="card">
                         <img src="assets/img/work6.jpeg" class="card-img-top" alt="Riccomida">
                         <div class="card-body">
@@ -141,19 +141,20 @@
             </div>
         </div>
     </section>
-    <section class="contact bg-dark-grey">
+    <section id="contact" class="contact bg-light-grey">
         <div class="container py-5">
             <h2 class="font-title text-center display-3 py-4">Contáctame</h2>
+            <div class="typeform-widget" data-url="https://form.typeform.com/to/U92y4kzn" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
         </div>
     </section>
 
     <footer class="footer-icons bg-yellow">
         <div class="container py-4">
             <div class="row">
-                <div class="col-4 text-left">
+                <div class="col-md-12 text-center col-lg-4 text-lg-left">
                     <img src="assets/img/logo-footer.png" alt="Logo OS">
                 </div>
-                <div class="col-8 text-right">
+                <div class="col-md-12 text-center col-lg-8 text-lg-right">
                     <ul>
                         <li>
                             <i class="fab fa-github text-body"></i>

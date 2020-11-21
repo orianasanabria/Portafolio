@@ -1,7 +1,7 @@
 :root {
     --grey-color: #d3d3d3;
-    --grey-bg: #222222;
-    --dark-grey-bg: #1A1A1A;
+    --grey-bg: #1a1a1a;
+    --light-grey-bg: #262626;
     --yellow-bg: #FFA733;
 }
 
@@ -32,8 +32,8 @@ header {
     background-color: var(--grey-bg);
 }
 
-.bg-dark-grey {
-    background-color: var(--dark-grey-bg);
+.bg-light-grey {
+    background-color: var(--light-grey-bg);
 }
 
 .experience-img {
@@ -48,7 +48,7 @@ header {
 }
 
 .card {
-    background-color: var(--dark-grey-bg);
+    background-color: var(--light-grey-bg);
 }
 
 .bg-yellow {
