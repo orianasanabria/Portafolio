@@ -2,6 +2,7 @@
     --grey-color: #d3d3d3;
     --grey-bg: #222222;
     --dark-grey-bg: #1A1A1A;
+    --yellow-bg: #FFA733;
 }
 
 * {
@@ -50,4 +51,17 @@ header {
     background-color: var(--dark-grey-bg);
 }
 
+.bg-yellow {
+    background-color: var(--yellow-bg);
+}
 
+footer img {
+    width: 14rem;
+}
+
+.footer-icons li {
+    display: inline-block;
+    font-size: 3rem;
+    margin-right: 2rem;
+    color: black;
+}
